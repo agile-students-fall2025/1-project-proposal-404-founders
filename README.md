@@ -55,7 +55,6 @@ From an end-user perspective, NutriSmart will provide the following core functio
 - **Chatbot:** Provide simple Q&A through a rule-based system, with the option to later upgrade to a free chatbot framework.  
 - **Caregiver/Shared accounts:** Let caregivers or family members view meal plans.  
 
-*(Note: The APIs listed above are some suggested free options; the team may explore alternatives as needed.)*
 
 ## Scope
 We believe this project is appropriately scoped for a semester-long effort by a team of 4-6 developers.  
