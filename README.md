@@ -18,36 +18,36 @@ This is important because many people struggle to manage diet, health conditions
 - Health-conscious individuals managing fitness, recovery, or weight goals.  
 - Busy families and students looking for affordable, healthy, low-waste meal plans.  
 
-How?
+## How?
 From an end-user perspective, NutriSmart will provide the following core functionality:
-User Profiles
-Register/login to account.
-Set dietary goals (weight loss, balanced nutrition, recovery, etc.).
-Add allergies, dietary restrictions, and health conditions.
 
+### User Profiles
+- Register/login to account.  
+- Set dietary goals (weight loss, balanced nutrition, recovery, etc.).  
+- Add allergies, dietary restrictions, and health conditions.  
 
-Nutrition & Meal Data
-Pull nutrition information from USDA FoodData Central.
-Access recipes from TheMealDB and combine with USDA data to calculate calories and macros.
+### Nutrition & Meal Data
+- Pull nutrition information from USDA FoodData Central.  
+- Access recipes from TheMealDB and combine with USDA data to calculate calories and macros.  
 
+### Pantry & Barcode Scanning
+- Add and manage pantry items.  
+- Scan barcodes with the phone camera (using ZXing/Quagga).  
+- Fetch product details from Open Food Facts to populate the pantry automatically.  
 
-Pantry & Barcode Scanning
-Add and manage pantry items.
-Scan barcodes with the phone camera (using ZXing/Quagga).
-Fetch product details from Open Food Facts to populate the pantry automatically.
+### Meal Planning
+- Generate personalized 7-day meal plans based on dietary goals.  
+- Prioritize pantry ingredients first to minimize food waste.  
+- Adjust meals according to user restrictions and preferences.  
 
+### Symptom-Based Suggestions
+- Log symptoms such as nausea, fatigue, or loss of appetite.  
+- Receive rule-based food recommendations with clear disclaimers (educational, not medical advice).  
 
-Meal Planning
-Generate personalized 7-day meal plans based on dietary goals.
-Prioritize pantry ingredients first to minimize food waste.
-Adjust meals according to user restrictions and preferences.
+### Exports & Sharing
+- Export meal plans and logs as PDF/CSV.  
+- Share with dietitians, doctors, or caregivers for external guidance.  
 
-Symptom-Based Suggestions
-Log symptoms such as nausea, fatigue, or loss of appetite.
-Receive rule-based food recommendations with clear disclaimers (educational, not medical advice).
-Exports & Sharing
-Export meal plans and logs as PDF/CSV.
-Share with dietitians, doctors, or caregivers for external guidance.
  
 
 ### Additional features (stretch goals):
