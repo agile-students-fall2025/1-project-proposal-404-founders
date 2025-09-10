@@ -18,14 +18,37 @@ This is important because many people struggle to manage diet, health conditions
 - Health-conscious individuals managing fitness, recovery, or weight goals.  
 - Busy families and students looking for affordable, healthy, low-waste meal plans.  
 
-## How?
-From an end-user perspective, the system will:
+How?
+From an end-user perspective, NutriSmart will provide the following core functionality:
+User Profiles
+Register/login to account.
+Set dietary goals (weight loss, balanced nutrition, recovery, etc.).
+Add allergies, dietary restrictions, and health conditions.
 
-- **Nutrition & meal data:** Use USDA FoodData Central for nutrition information and TheMealDB for recipes. Combine the two to provide both meals and accurate calorie/macro data.  
-- **Barcode scanning:** Scan products with the phone camera using ZXing/Quagga and fetch product details from Open Food Facts.  
-- **Meal planning:** Generate a 7-day plan that prioritizes pantry ingredients first to minimize food waste and align with the user’s dietary goals.  
-- **Symptom-based suggestions:** Users log symptoms (e.g., nausea, fatigue), and the app provides rule-based food recommendations (with a disclaimer that this is educational, not medical advice).  
-- **Exports:** Allow users to export plans and logs as PDF or CSV for sharing with dietitians, doctors, or caregivers.  
+
+Nutrition & Meal Data
+Pull nutrition information from USDA FoodData Central.
+Access recipes from TheMealDB and combine with USDA data to calculate calories and macros.
+
+
+Pantry & Barcode Scanning
+Add and manage pantry items.
+Scan barcodes with the phone camera (using ZXing/Quagga).
+Fetch product details from Open Food Facts to populate the pantry automatically.
+
+
+Meal Planning
+Generate personalized 7-day meal plans based on dietary goals.
+Prioritize pantry ingredients first to minimize food waste.
+Adjust meals according to user restrictions and preferences.
+
+Symptom-Based Suggestions
+Log symptoms such as nausea, fatigue, or loss of appetite.
+Receive rule-based food recommendations with clear disclaimers (educational, not medical advice).
+Exports & Sharing
+Export meal plans and logs as PDF/CSV.
+Share with dietitians, doctors, or caregivers for external guidance.
+ 
 
 ### Additional features (stretch goals):
 - **Receipt OCR:** Use Tesseract.js to add pantry items directly from receipts.  
