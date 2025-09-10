@@ -22,7 +22,7 @@ This is important because many people struggle to manage diet, health conditions
 From an end-user perspective, the system will:
 
 - **Nutrition & meal data:** Use USDA FoodData Central for nutrition information and TheMealDB for recipes. Combine the two to provide both meals and accurate calorie/macro data.  
-- **Barcode scanning:** Scan products with the phone camera using ZXing/Quagga and fetch product details from Open Food Facts (free barcode/product database).  
+- **Barcode scanning:** Scan products with the phone camera using ZXing/Quagga and fetch product details from Open Food Facts.  
 - **Meal planning:** Generate a 7-day plan that prioritizes pantry ingredients first to minimize food waste and align with the user’s dietary goals.  
 - **Symptom-based suggestions:** Users log symptoms (e.g., nausea, fatigue), and the app provides rule-based food recommendations (with a disclaimer that this is educational, not medical advice).  
 - **Exports:** Allow users to export plans and logs as PDF or CSV for sharing with dietitians, doctors, or caregivers.  
